@@ -1,0 +1,92 @@
+{
+  "analytics": {
+    "samreactapp": {
+      "providerPlugin": "awscloudformation",
+      "service": "Pinpoint"
+    }
+  },
+  "api": {},
+  "auth": {
+    "samreactappeb476606": {
+      "customAuth": false,
+      "dependsOn": [],
+      "frontendAuthConfig": {
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyCharacters": [],
+          "passwordPolicyMinLength": 8
+        },
+        "signupAttributes": [
+          "EMAIL"
+        ],
+        "socialProviders": [],
+        "usernameAttributes": [
+          "EMAIL"
+        ],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "providerPlugin": "awscloudformation",
+      "service": "Cognito"
+    }
+  },
+  "function": {},
+  "hosting": {
+    "amplifyhosting": {
+      "providerPlugin": "awscloudformation",
+      "service": "amplifyhosting",
+      "type": "manual"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_hosting_amplifyhosting_appId": {
+      "usedBy": [
+        {
+          "category": "hosting",
+          "resourceName": "amplifyhosting"
+        }
+      ]
+    },
+    "AMPLIFY_hosting_amplifyhosting_type": {
+      "usedBy": [
+        {
+          "category": "hosting",
+          "resourceName": "amplifyhosting"
+        }
+      ]
+    },
+    "AMPLIFY_storage_samreactappa01fbe45_bucketName": {
+      "usedBy": [
+        {
+          "category": "storage",
+          "resourceName": "samreactappa01fbe45"
+        }
+      ]
+    },
+    "AMPLIFY_storage_samreactappa01fbe45_region": {
+      "usedBy": [
+        {
+          "category": "storage",
+          "resourceName": "samreactappa01fbe45"
+        }
+      ]
+    }
+  },
+  "storage": {
+    "s3457b1814": {
+      "dependsOn": [],
+      "providerPlugin": "awscloudformation",
+      "service": "S3"
+    },
+    "samreactappa01fbe45": {
+      "dependsOn": [],
+      "providerPlugin": "awscloudformation",
+      "service": "S3",
+      "serviceType": "imported"
+    }
+  }
+}

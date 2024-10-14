@@ -1,0 +1,75 @@
+{
+  "name": "sam-react-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@aws-amplify/storage": "^6.0.7",
+    "@aws-amplify/ui-react": "^6.0.6",
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
+    "@handsontable/react": "^14.0.0",
+    "@material-ui/core": "^4.12.4",
+    "@material-ui/lab": "^4.0.0-alpha.61",
+    "@mui/icons-material": "^5.15.4",
+    "@mui/material": "^5.15.4",
+    "@mui/x-data-grid": "^6.18.7",
+    "@mui/x-date-pickers": "^6.19.0",
+    "@syncfusion/ej2": "^24.1.45",
+    "@syncfusion/ej2-base": "^24.1.42",
+    "@syncfusion/ej2-react-grids": "^24.1.45",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.18.68",
+    "@types/papaparse": "^5.3.14",
+    "@types/react": "^18.2.44",
+    "@types/react-dom": "^18.2.17",
+    "@types/react-router-dom": "^5.3.3",
+    "@visx/axis": "^3.10.1",
+    "@visx/scale": "^3.5.0",
+    "@visx/shape": "^3.5.0",
+    "ag-grid-react": "^31.0.1",
+    "aws-amplify": "^6.0.7",
+    "aws-sdk": "^2.1517.0",
+    "d3": "^7.9.0",
+    "dayjs": "^1.11.10",
+    "handsontable": "^14.0.0",
+    "material-react-table": "^2.6.1",
+    "papaparse": "^5.4.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-financial-charts": "^2.0.1",
+    "react-router-dom": "^6.21.1",
+    "react-scripts": "5.0.1",
+    "react-stockcharts": "^0.7.8",
+    "react-table": "^7.8.0",
+    "recharts": "^2.10.3",
+    "typescript": "^4.9.5",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

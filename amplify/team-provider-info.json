@@ -1,0 +1,100 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-samreactapp-dev-190219-authRole",
+      "UnauthRoleArn": "arn:aws:iam::077351908242:role/amplify-samreactapp-dev-190219-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::077351908242:role/amplify-samreactapp-dev-190219-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-samreactapp-dev-190219-deployment",
+      "UnauthRoleName": "amplify-samreactapp-dev-190219-unauthRole",
+      "StackName": "amplify-samreactapp-dev-190219",
+      "StackId": "arn:aws:cloudformation:us-east-1:077351908242:stack/amplify-samreactapp-dev-190219/e3367290-994a-11ee-95df-0eda9f25f0db",
+      "AmplifyAppId": "d3kmf5kow7q1rc"
+    },
+    "categories": {
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d3kmf5kow7q1rc",
+          "type": "manual"
+        }
+      },
+      "auth": {
+        "samreactapp88ef7e73": {},
+        "samreactappff530f3b": {}
+      },
+      "storage": {
+        "samreactappfa891005": {
+          "bucketName": "sportsbook-odds",
+          "region": "us-east-1"
+        },
+        "samreactappa11d3470": {
+          "bucketName": "sportsbook-odds",
+          "region": "us-east-1"
+        }
+      }
+    }
+  },
+  "amplifyapp": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-samreactapp-amplifyapp-161156-authRole",
+      "UnauthRoleArn": "arn:aws:iam::077351908242:role/amplify-samreactapp-amplifyapp-161156-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::077351908242:role/amplify-samreactapp-amplifyapp-161156-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-samreactapp-amplifyapp-161156-deployment",
+      "UnauthRoleName": "amplify-samreactapp-amplifyapp-161156-unauthRole",
+      "StackName": "amplify-samreactapp-amplifyapp-161156",
+      "StackId": "arn:aws:cloudformation:us-east-1:077351908242:stack/amplify-samreactapp-amplifyapp-161156/6a0a5180-9ac5-11ee-9b0a-0e2f53510365",
+      "AmplifyAppId": "d3kmf5kow7q1rc"
+    },
+    "categories": {
+      "auth": {
+        "samreactappff530f3b": {}
+      },
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d3kmf5kow7q1rc",
+          "type": "manual"
+        }
+      },
+      "storage": {
+        "samreactappa11d3470": {
+          "bucketName": "sportsbook-odds",
+          "region": "us-east-1"
+        }
+      }
+    }
+  },
+  "amplifydev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-samreactapp-amplifydev-165400-authRole",
+      "UnauthRoleArn": "arn:aws:iam::077351908242:role/amplify-samreactapp-amplifydev-165400-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::077351908242:role/amplify-samreactapp-amplifydev-165400-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-samreactapp-amplifydev-165400-deployment",
+      "UnauthRoleName": "amplify-samreactapp-amplifydev-165400-unauthRole",
+      "StackName": "amplify-samreactapp-amplifydev-165400",
+      "StackId": "arn:aws:cloudformation:us-east-1:077351908242:stack/amplify-samreactapp-amplifydev-165400/4a301dd0-9acb-11ee-8956-0aa823fe5ff5",
+      "AmplifyAppId": "d3kmf5kow7q1rc"
+    },
+    "categories": {
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d3kmf5kow7q1rc",
+          "type": "manual"
+        }
+      },
+      "storage": {
+        "samreactappa01fbe45": {
+          "bucketName": "sportsbook-odds",
+          "region": "us-east-1"
+        }
+      },
+      "auth": {
+        "samreactappeb476606": {}
+      },
+      "analytics": {
+        "samreactapp": {}
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+    "appName": "samreactapp",
+    "roleName": "pinpointLambdaRole8ef93329",
+    "cloudformationPolicyName": "cloudformationPolicy8ef93329",
+    "cloudWatchPolicyName": "cloudWatchPolicy8ef93329",
+    "pinpointPolicyName": "pinpointPolicy8ef93329",
+    "authPolicyName": "pinpoint_amplify_8ef93329",
+    "unauthPolicyName": "pinpoint_amplify_8ef93329",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "authRoleArn": {
+        "Fn::GetAtt": [
+            "AuthRole",
+            "Arn"
+        ]
+    }
+}

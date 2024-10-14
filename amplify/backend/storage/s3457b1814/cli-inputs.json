@@ -1,0 +1,12 @@
+{
+  "resourceName": "s3457b1814",
+  "policyUUID": "457b1814",
+  "bucketName": "samreactapp871730ea3fb2499b89c863bc8b11ea0f",
+  "storageAccess": "auth",
+  "guestAccess": [],
+  "authAccess": [
+    "READ"
+  ],
+  "triggerFunction": "NONE",
+  "groupAccess": {}
+}
